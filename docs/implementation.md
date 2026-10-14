@@ -26,7 +26,7 @@ The precise Ollama executable version, embedding artifact digest and reproducibi
 
 In the observed baseline, content retrieval used `query_knowledge_files`; filename search via `search_knowledge_files` was insufficient for document-content questions. Model selection of the right tool was inconsistent. A two-source Alder run retrieved both files but misattributed an offline detail to the wrong one. Do not treat a citation as proof of claim-level fidelity.
 
-A local `/health` response and a user-observed Alder retrieval with Wi-Fi disabled were recorded after the model and embeddings had already been installed. The operator confirmed no Ethernet or mobile hotspot was active. No independent network-interface log, fresh offline installation, or guarantee against later outbound traffic was established.
+A local `/health` response and a user-observed [Alder retrieval](offline-test-2026-10-14.md) with Wi-Fi disabled were recorded after the model and embeddings had already been installed. The operator confirmed no Ethernet or mobile hotspot was active. No independent network-interface log, fresh offline installation, or guarantee against later outbound traffic was established. See the separate [performance observations](performance-2026-10-14.md) and [earlier internal-corpus benchmark summary](retrieval-benchmark-2026-10-12.md) for their distinct evidence limits.
 
 ## Local API check
 
