@@ -10,6 +10,13 @@ On one MacBook Air M1 (16 GB), a locally run Qwen 2.5 7B model with Open WebUI r
 
 The demo contains no real Indigenous or community-governed knowledge, no health source documents, and no medical advice. It does not implement community permission controls. See the [setup and evidence limits](docs/implementation.md).
 
+## Evidence and limits
+
+- [Alder test cases](demo/alder-station-v0.1/TEST_CASES.md) and [offline observation OFF-01](docs/offline-test-2026-10-14.md) document the fictional demonstration and the operator-confirmed disconnected run.
+- [MacBook Air performance observations](docs/performance-2026-10-14.md) report one timed response and system-wide memory snapshots; these are not a hardware requirement or a verified process footprint.
+- [Internal-corpus retrieval benchmark summary](docs/retrieval-benchmark-2026-10-12.md) preserves structural findings and failures from the earlier health-corpus test without distributing source text, raw outputs or health-specific prompts. Its results do not transfer automatically to Alder.
+
+
 ## Explore the preview
 
 1. Install the upstream runtime, model and interface separately. The tested versions and settings are in [docs/implementation.md](docs/implementation.md); a clean installation has **not** been independently verified.
