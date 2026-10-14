@@ -31,3 +31,5 @@ The preview uses separately installed Qwen, Ollama, Open WebUI and an embedding 
 The later **AI Capsule 1.0** is intended to be easier to obtain and install, with useful starter Knowledge Packs and a more reliable workflow. Those are development goals, not features delivered here. This technical preview is not a medical assistant, a production service or a validated community knowledge system.
 
 No GitHub issue history was imported from the private development repository. New public-facing issues, if needed, should be written and reviewed afresh.
+
+For a hands-on walkthrough, see the [Alder quickstart](docs/alder-quickstart.md). The later Native Retrieval results are in the [v1.3 benchmark summary](docs/native-retrieval-benchmark-v1.3-2026-10-13.md).
