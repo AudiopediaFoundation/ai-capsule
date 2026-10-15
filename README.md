@@ -2,7 +2,7 @@
 
 AI Capsule is an experimental local, multilingual, source-grounded knowledge assistant from [LowRes.AI](https://lowres.ai/) and Audiopedia Foundation. This repository is a **technical preview for technically inclined collaborators**, not the AI Capsule 1.0 product or a ready-to-install application.
 
-**Release:** Technical Preview (October 2026). Audiopedia Foundation has approved the licenses for its original material. The [publication review](PUBLICATION.md) records the security/content checks, open limitations and final repository-owner authorization requirement.
+**Release:** Technical Preview (October 2026). Audiopedia Foundation has approved the licenses for its original material. The [publication review](PUBLICATION.md) records the security/content checks, open limitations and final repository-owner authorization requirement. The provisional [roadmap](ROADMAP.md) explains the path toward a future AI Capsule 1.0 reference implementation.
 
 ## What has been observed
 
