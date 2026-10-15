@@ -2,7 +2,7 @@
 
 AI Capsule is an experimental local, multilingual, source-grounded knowledge assistant from [LowRes.AI](https://lowres.ai/) and Audiopedia Foundation. This repository is a **technical preview for technically inclined collaborators**, not the AI Capsule 1.0 product or a ready-to-install application.
 
-**Status (14 October 2026): private release candidate.** Audiopedia Foundation has approved licenses for its original material. Public release still requires a separate rights, security, reproducibility and content review and explicit sign-off. See [PUBLICATION.md](PUBLICATION.md).
+**Release:** Technical Preview (October 2026). Audiopedia Foundation has approved the licenses for its original material. The [publication review](PUBLICATION.md) records the security/content checks, open limitations and final repository-owner authorization requirement.
 
 ## What has been observed
 
@@ -19,6 +19,8 @@ The demo contains no real Indigenous or community-governed knowledge, no health 
 
 ## Explore the preview
 
+Start with the [Alder quickstart](docs/alder-quickstart.md) and review the [v1.3 structural benchmark](docs/native-retrieval-benchmark-v1.3-2026-10-13.md), which also documents a retrieval-decision failure.
+
 1. Install the upstream runtime, model and interface separately. The tested versions and settings are in [docs/implementation.md](docs/implementation.md); a clean installation has **not** been independently verified.
 2. Ingest only the three synthetic files in [demo/alder-station-v0.1/documents/](demo/alder-station-v0.1/documents/) into a new Open WebUI knowledge collection.
 3. Create a separate experimental preset using the [archived v1.3 prompt](config/native-system-prompt-v1.3.txt). Its historical opening says “AI Capsule 1.0”; that was a working label, not a product-release claim.
@@ -32,4 +34,3 @@ The later **AI Capsule 1.0** is intended to be easier to obtain and install, wit
 
 No GitHub issue history was imported from the private development repository. New public-facing issues, if needed, should be written and reviewed afresh.
 
-For a hands-on walkthrough, see the [Alder quickstart](docs/alder-quickstart.md). The later Native Retrieval results are in the [v1.3 benchmark summary](docs/native-retrieval-benchmark-v1.3-2026-10-13.md).
